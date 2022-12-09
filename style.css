@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* z-index: 2; */
+.main { 
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0)50%, rgba(0,0,0,0)50%), url(Fondo.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.imgbox {
+    height: 7%;
+    width: 5%;
+    background-color: rgba(91, 86, 86, 0.545);
+    position: relative;
+    top: 0%;
+    bottom: 5%;
+    z-index: 1;
+    border-bottom-right-radius: 7px;
+}
+
+.global {
+    height: 4%;
+    width: auto;
+    position: absolute;
+    top: 1%;
+    left: 1.5%;
+    z-index: 2;
+}
+
+.imgbox1 {
+    height: 7%;
+    width: 5%;
+    background-color: rgba(91, 86, 86, 0.545);
+    position: relative;
+    bottom: 7%;
+    left: 90%;
+    z-index: 3;
+    border-bottom-left-radius: 7px;
+}
+
+.textmg {
+    height: 6%;
+    width: auto;
+    position: absolute;
+    top: 0%;
+    left: 91%;
+    z-index: 4;
+}
+
+.imgbox2 {
+    height: 7%;
+    width: 5%;
+    background-color: rgba(91, 86, 86, 0.545);
+    position: relative;
+    bottom: 14%;
+    left: 95%;
+    z-index: 5;
+}
+
+.contrastmg {
+    height: 4%;
+    width: auto;
+    position: absolute;
+    top: 1%;
+    left: 96.4%;
+    z-index: 6;
+}
+
+
+.container {  
+    position: absolute;
+    top: 25%;
+    font-family: Arial,sans-serif;
+    background: url(barra.jpg);
+    background-position: center;
+    width: 100%;
+    height: 270px;
+    color: white;
+    border-color: #EE8A59;
+}
+
+.privacidad{
+    height: 7%;
+    width: 15%;
+    background-color: aliceblue;
+    color: blue;
+    position: absolute;
+    bottom: 93%;
+    left: 64%;
+    font-weight: bold;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    text-align: center;
+    font-size: 95%;
+}
+
+.ayuda {
+    
+    background-color: aliceblue;
+    color: blue;
+    position: absolute;
+    bottom: 93%;
+    left: 83%;
+    font-weight: bold;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    text-align: center;
+    font-size: 90%;
+    height: 7%;
+    width: 15%;
+}
+
+.idiom {
+    display: none;  
+}
+
+.submit {
+    font-size: 110%;
+    position: relative;
+    top: 11%;
+    left: 3.5%;
+    background-color: #EE8A59;
+    color: aliceblue;
+    border-width: 2.5px;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    font: bold;
+}
+
+.usuario {
+    font-size: 110%;
+    position: relative;
+    top: 2%;
+    left: 8.5%;
+    color: rgb(255, 255, 255);
+}
+
+.udlap {
+    position:relative;
+    left: 5%;
+    top: 3%;
+    width: auto;
+    height: 16%;
+}
+
+.forget {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 90%;
+    position: relative;
+    top: 16%;
+    left: 2%;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.inusu {
+    border: solid rgb(159, 159, 159);
+    font-weight: bold;
+    background-color: rgba(252, 254, 255, 0.804);
+    position: relative;
+    top: 3%;
+    left: 8%;
+    border-width: 4px;
+    border-radius: 5px;
+    height: 35px;
+    width: 420px;
+}
+
+.contras {
+    font-size: 110%;
+    position: relative;
+    top: 8%;
+    left: 8.5%;
+    color: rgb(255, 255, 255);
+}
+
+.incontras {
+    border: solid rgb(159, 159, 159);
+    font-weight: bold;
+    background-color: rgba(252, 254, 255, 0.804);
+    border-width: 4px;
+    border-radius: 5px;
+    position: relative;
+    height: 35px;
+    width: 420px;
+    top: 8%;
+    left: 8%;
+}
